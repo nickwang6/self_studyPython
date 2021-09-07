@@ -1,0 +1,910 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2.1turtle库的使用 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="拓展.html" />
+    
+    
+    <link rel="prev" href="Python图形绘制.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../第一章/踏入python之旅.html">
+            
+                <a href="../第一章/踏入python之旅.html">
+            
+                    
+                    第一章:踏入python之旅
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../第一章/python开发环境配置.html">
+            
+                <a href="../第一章/python开发环境配置.html">
+            
+                    
+                    1.1python开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../第一章/python程序语法元素.html">
+            
+                <a href="../第一章/python程序语法元素.html">
+            
+                    
+                    1.2python程序语法元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../第一章/习题巩固.html">
+            
+                <a href="../第一章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Python图形绘制.html">
+            
+                <a href="Python图形绘制.html">
+            
+                    
+                    第二章:Python图形绘制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="turtle库的使用.html">
+            
+                <a href="turtle库的使用.html">
+            
+                    
+                    2.1turtle库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="拓展.html">
+            
+                <a href="拓展.html">
+            
+                    
+                    2.2拓展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="习题巩固.html">
+            
+                <a href="习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../第三章/Python基础类型.html">
+            
+                <a href="../第三章/Python基础类型.html">
+            
+                    
+                    第三章:Python基础类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../第三章/数字类型以及操作.html">
+            
+                <a href="../第三章/数字类型以及操作.html">
+            
+                    
+                    3.1数字类型以及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../第三章/字符串类型及操作.html">
+            
+                <a href="../第三章/字符串类型及操作.html">
+            
+                    
+                    3.2字符串类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../第三章/拓展.html">
+            
+                <a href="../第三章/拓展.html">
+            
+                    
+                    3.3拓展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../第三章/习题巩固.html">
+            
+                <a href="../第三章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../第四章/程序的控制结构.html">
+            
+                <a href="../第四章/程序的控制结构.html">
+            
+                    
+                    第四章:程序的控制结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../第四章/程序的分支结构.html">
+            
+                <a href="../第四章/程序的分支结构.html">
+            
+                    
+                    4.1程序的分支结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../第四章/程序的循环结构.html">
+            
+                <a href="../第四章/程序的循环结构.html">
+            
+                    
+                    4.2程序的循环结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../第四章/拓展.html">
+            
+                <a href="../第四章/拓展.html">
+            
+                    
+                    4.3拓展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../第四章/习题巩固.html">
+            
+                <a href="../第四章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../第五章/组合数据类型.html">
+            
+                <a href="../第五章/组合数据类型.html">
+            
+                    
+                    第五章:组合数据类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../第五章/集合类型及操作.html">
+            
+                <a href="../第五章/集合类型及操作.html">
+            
+                    
+                    5.1集合类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../第五章/序列类型及操作.html">
+            
+                <a href="../第五章/序列类型及操作.html">
+            
+                    
+                    5.2序列类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../第五章/字典类型及操作.html">
+            
+                <a href="../第五章/字典类型及操作.html">
+            
+                    
+                    5.3字典类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../第五章/习题巩固.html">
+            
+                <a href="../第五章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../第六章/函数的代码和复用.html">
+            
+                <a href="../第六章/函数的代码和复用.html">
+            
+                    
+                    第六章:函数的代码和复用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../第六章/函数的定义与使用.html">
+            
+                <a href="../第六章/函数的定义与使用.html">
+            
+                    
+                    6.1函数的定义与使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../第六章/代码复用与函数递归.html">
+            
+                <a href="../第六章/代码复用与函数递归.html">
+            
+                    
+                    6.2代码复用与函数递归
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../第六章/习题巩固.html">
+            
+                <a href="../第六章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../第七章/文件和数据格式化.html">
+            
+                <a href="../第七章/文件和数据格式化.html">
+            
+                    
+                    第七章:文件和数据格式化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../第七章/文件的使用.html">
+            
+                <a href="../第七章/文件的使用.html">
+            
+                    
+                    7.1文件的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../第七章/数据格式化和使用.html">
+            
+                <a href="../第七章/数据格式化和使用.html">
+            
+                    
+                    7.2数据格式化和使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../第七章/习题巩固.html">
+            
+                <a href="../第七章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../第八章/第三方库.html">
+            
+                <a href="../第八章/第三方库.html">
+            
+                    
+                    第八章:第三方库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../第八章/习题巩固.html">
+            
+                <a href="../第八章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >2.1turtle库的使用</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="21turtle&#x6D77;&#x9F9F;&#x7ED8;&#x56FE;&#x7684;&#x4F7F;&#x7528;">2.1turtle&#x6D77;&#x9F9F;&#x7ED8;&#x56FE;&#x7684;&#x4F7F;&#x7528;</h1>
+<h1 id="&#x76EE;&#x6807;">&#x76EE;&#x6807;</h1>
+<pre><code>1.&#x4E86;&#x89E3;&#x6D77;&#x9F9F;&#x7ED8;&#x56FE;&#x7684;&#x6765;&#x6E90;
+2.&#x638C;&#x63E1;turtle&#x5E93;&#x7684;&#x57FA;&#x672C;&#x65B9;&#x6CD5;
+</code></pre><h1 id="&#x6D77;&#x9F9F;&#x7ED8;&#x56FE;&#x6982;&#x8FF0;">&#x6D77;&#x9F9F;&#x7ED8;&#x56FE;&#x6982;&#x8FF0;</h1>
+<p>&#x200B;    &#x6D77;&#x9F9F;&#x7ED8;&#x56FE;&#x5F88;&#x9002;&#x5408;&#x7528;&#x6765;&#x5F15;&#x5BFC;&#x5B69;&#x5B50;&#x5B66;&#x4E60;&#x7F16;&#x7A0B;&#x3002; &#x6700;&#x521D;&#x6765;&#x81EA;&#x4E8E; Wally Feurzeig, Seymour Papert &#x548C; Cynthia Solomon &#x4E8E; 1967 &#x5E74;&#x6240;&#x521B;&#x9020;&#x7684; Logo &#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x3002;</p>
+<p>&#x200B;    Python&#x8BED;&#x8A00;<strong>&#x6807;&#x51C6;&#x5E93;</strong>&#x4E4B;&#x4E00;</p>
+<p>&#x200B;            &#x6807;&#x51C6;&#x5E93;&#xFF1A;&#x968F;&#x89E3;&#x91CA;&#x5668;&#x76F4;&#x63A5;&#x5B89;&#x88C5;&#x5230;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x529F;&#x80FD;&#x6A21;&#x5757;</p>
+<p>&#x200B;            &#x7B2C;&#x4E09;&#x65B9;&#xFF1A;&#x9700;&#x8981;&#x7ECF;&#x8FC7;&#x5B89;&#x88C5;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x7684;&#x529F;&#x80FD;&#x6A21;&#x5757;</p>
+<p>&#x200B;            &#x5E93;Library&#x3001;&#x5305;package&#x3001;&#x6A21;&#x5757;Module&#xFF0C;&#x7EDF;&#x79F0;&#x6A21;&#x5757;&#x3002;</p>
+<p>&#x200B;    &#x5165;&#x95E8;&#x7EA7;&#x7684;&#x56FE;&#x5F62;&#x7ED8;&#x5236;&#x51FD;&#x6570;&#x5E93;</p>
+<h1 id="&#x6D77;&#x9F9F;&#x5750;&#x6807;&#x4F53;&#x7CFB;">&#x6D77;&#x9F9F;&#x5750;&#x6807;&#x4F53;&#x7CFB;</h1>
+<p>&#x200B;    turtle&#x7A7A;&#x95F4;&#x5750;&#x6807;&#x4F53;&#x7CFB;</p>
+<p><img src="../img2/8.png" alt=""></p>
+<p>&#x200B;    RGB&#x8272;&#x5F69;&#x4F53;&#x7CFB;</p>
+<p><img src="../img2/9.png" alt=""></p>
+<h1 id="turtle-&#x5E93;&#x57FA;&#x672C;&#x65B9;&#x6CD5;">turtle &#x5E93;&#x57FA;&#x672C;&#x65B9;&#x6CD5;</h1>
+<h2 id="&#x6D77;&#x9F9F;&#x52A8;&#x4F5C;">&#x6D77;&#x9F9F;&#x52A8;&#x4F5C;</h2>
+<p>&#x200B;    <strong>&#x79FB;&#x52A8;&#x548C;&#x7ED8;&#x5236;</strong></p>
+<table>
+<thead>
+<tr>
+<th>&#x65B9;&#x6CD5;</th>
+<th>&#x89E3;&#x91CA;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>forward()  \</td>
+<td>fd()</td>
+<td>&#x524D;&#x8FDB;</td>
+</tr>
+<tr>
+<td>backward()  \</td>
+<td>bk()  \</td>
+<td>back()</td>
+<td>&#x540E;&#x9000;</td>
+</tr>
+<tr>
+<td>right&#xFF08;&#xFF09;\</td>
+<td>rt&#xFF08;&#xFF09;</td>
+<td>&#x53F3;&#x8F6C;</td>
+</tr>
+<tr>
+<td>left&#xFF08;&#xFF09;\</td>
+<td>lt&#xFF08;&#xFF09;</td>
+<td>&#x5DE6;&#x8F6C;</td>
+</tr>
+<tr>
+<td>goto&#xFF08;&#xFF09;\</td>
+<td>setpostion()</td>
+<td>&#x524D;&#x5F80;/&#x5B9A;&#x4F4D;</td>
+</tr>
+<tr>
+<td>setx&#xFF08;&#xFF09;</td>
+<td>&#x8BBE;&#x7F6E;x&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>sety&#xFF08;&#xFF09;</td>
+<td>&#x8BBE;&#x7F6E;y&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>seth&#xFF08;&#xFF09;</td>
+<td>&#x8BBE;&#x7F6E;&#x671D;&#x5411;</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>home&#xFF08;&#xFF09;</th>
+<th>&#x8FD4;&#x56DE;&#x539F;&#x70B9;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>circle&#xFF08;&#xFF09;</td>
+<td>&#x753B;&#x5706;</td>
+</tr>
+<tr>
+<td>dot&#xFF08;&#xFF09;</td>
+<td>&#x753B;&#x70B9;</td>
+</tr>
+<tr>
+<td>stamp&#xFF08;&#xFF09;</td>
+<td>&#x5370;&#x7AE0;</td>
+</tr>
+<tr>
+<td>cleanstamp&#xFF08;&#xFF09;</td>
+<td>&#x6E05;&#x9664;&#x5370;&#x7AE0;</td>
+</tr>
+<tr>
+<td>undo</td>
+<td>&#x64A4;&#x9500;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x83B7;&#x53D6;&#x6D77;&#x9F9F;&#x72B6;&#x6001;</strong></p>
+<table>
+<thead>
+<tr>
+<th>position&#xFF08;&#xFF09;\</th>
+<th>pos&#xFF08;&#xFF09;</th>
+<th>&#x4F4D;&#x7F6E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>towards()</td>
+<td>&#x76EE;&#x6807;&#x65B9;&#x5411;</td>
+</tr>
+<tr>
+<td>xcor&#xFF08;&#xFF09;</td>
+<td>x&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>ycor&#xFF08;&#xFF09;</td>
+<td>y&#x5750;&#x6807;</td>
+</tr>
+<tr>
+<td>heading&#xFF08;&#xFF09;</td>
+<td>&#x671D;&#x5411;</td>
+</tr>
+<tr>
+<td>distance&#xFF08;&#xFF09;</td>
+<td>&#x8DDD;&#x79BB;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x753B;&#x7B14;&#x63A7;&#x5236;">&#x753B;&#x7B14;&#x63A7;&#x5236;</h2>
+<p>&#x200B;    &#x7ED8;&#x56FE;&#x72B6;&#x6001;</p>
+<table>
+<thead>
+<tr>
+<th>pendown&#xFF08;&#xFF09; \</th>
+<th>pd&#xFF08;&#xFF09; \</th>
+<th>down&#xFF08;&#xFF09;</th>
+<th>&#x753B;&#x7B14;&#x843D;&#x4E0B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>penup&#xFF08;&#xFF09;\</td>
+<td>pu&#xFF08;&#xFF09; \</td>
+<td>up()</td>
+<td>&#x753B;&#x7B14;&#x62AC;&#x8D77;</td>
+</tr>
+<tr>
+<td>pensize&#xFF08;&#xFF09; \</td>
+<td>width&#xFF08;&#xFF09;</td>
+<td>&#x753B;&#x7B14;&#x7C97;&#x7EC6;</td>
+</tr>
+<tr>
+<td>pen&#xFF08;&#xFF09;</td>
+<td>&#x753B;&#x7B14;</td>
+</tr>
+<tr>
+<td>isdown&#xFF08;&#xFF09;</td>
+<td>&#x753B;&#x7B14;&#x662F;&#x5426;&#x843D;&#x4E0B;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x200B;    &#x989C;&#x8272;&#x63A7;&#x5236;</p>
+<table>
+<thead>
+<tr>
+<th>color()</th>
+<th>&#x989C;&#x8272;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pencolor()</td>
+<td>&#x753B;&#x7B14;&#x989C;&#x8272;</td>
+</tr>
+<tr>
+<td>fillcolor&#xFF08;&#xFF09;</td>
+<td>&#x586B;&#x5145;&#x989C;&#x8272;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x200B;    &#x586B;&#x5145;</p>
+<table>
+<thead>
+<tr>
+<th>filling&#xFF08;&#xFF09;</th>
+<th>&#x662F;&#x5426;&#x586B;&#x5145;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>begin_fill()</td>
+<td>&#x5F00;&#x59CB;&#x586B;&#x5145;</td>
+</tr>
+<tr>
+<td>end_fill()</td>
+<td>&#x7ED3;&#x675F;&#x586B;&#x5145;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Python图形绘制.html" class="navigation navigation-prev " aria-label="Previous page: 第二章:Python图形绘制">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="拓展.html" class="navigation navigation-next " aria-label="Next page: 2.2拓展">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2.1turtle库的使用","level":"1.3.1","depth":2,"next":{"title":"2.2拓展","level":"1.3.2","depth":2,"path":"第二章/拓展.md","ref":"第二章/拓展.md","articles":[]},"previous":{"title":"第二章:Python图形绘制","level":"1.3","depth":1,"path":"第二章/Python图形绘制.md","ref":"第二章/Python图形绘制.md","articles":[{"title":"2.1turtle库的使用","level":"1.3.1","depth":2,"path":"第二章/turtle库的使用.md","ref":"第二章/turtle库的使用.md","articles":[]},{"title":"2.2拓展","level":"1.3.2","depth":2,"path":"第二章/拓展.md","ref":"第二章/拓展.md","articles":[]},{"title":"习题巩固","level":"1.3.3","depth":2,"path":"第二章/习题巩固.md","ref":"第二章/习题巩固.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"第二章/turtle库的使用.md","mtime":"2021-09-06T07:13:31.475Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-09-07T06:04:11.634Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

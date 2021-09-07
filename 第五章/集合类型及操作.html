@@ -1,0 +1,792 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>5.1集合类型及操作 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="序列类型及操作.html" />
+    
+    
+    <link rel="prev" href="组合数据类型.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../第一章/踏入python之旅.html">
+            
+                <a href="../第一章/踏入python之旅.html">
+            
+                    
+                    第一章:踏入python之旅
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../第一章/python开发环境配置.html">
+            
+                <a href="../第一章/python开发环境配置.html">
+            
+                    
+                    1.1python开发环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../第一章/python程序语法元素.html">
+            
+                <a href="../第一章/python程序语法元素.html">
+            
+                    
+                    1.2python程序语法元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../第一章/习题巩固.html">
+            
+                <a href="../第一章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../第二章/Python图形绘制.html">
+            
+                <a href="../第二章/Python图形绘制.html">
+            
+                    
+                    第二章:Python图形绘制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../第二章/turtle库的使用.html">
+            
+                <a href="../第二章/turtle库的使用.html">
+            
+                    
+                    2.1turtle库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../第二章/拓展.html">
+            
+                <a href="../第二章/拓展.html">
+            
+                    
+                    2.2拓展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../第二章/习题巩固.html">
+            
+                <a href="../第二章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../第三章/Python基础类型.html">
+            
+                <a href="../第三章/Python基础类型.html">
+            
+                    
+                    第三章:Python基础类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../第三章/数字类型以及操作.html">
+            
+                <a href="../第三章/数字类型以及操作.html">
+            
+                    
+                    3.1数字类型以及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../第三章/字符串类型及操作.html">
+            
+                <a href="../第三章/字符串类型及操作.html">
+            
+                    
+                    3.2字符串类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../第三章/拓展.html">
+            
+                <a href="../第三章/拓展.html">
+            
+                    
+                    3.3拓展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../第三章/习题巩固.html">
+            
+                <a href="../第三章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../第四章/程序的控制结构.html">
+            
+                <a href="../第四章/程序的控制结构.html">
+            
+                    
+                    第四章:程序的控制结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../第四章/程序的分支结构.html">
+            
+                <a href="../第四章/程序的分支结构.html">
+            
+                    
+                    4.1程序的分支结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../第四章/程序的循环结构.html">
+            
+                <a href="../第四章/程序的循环结构.html">
+            
+                    
+                    4.2程序的循环结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../第四章/拓展.html">
+            
+                <a href="../第四章/拓展.html">
+            
+                    
+                    4.3拓展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../第四章/习题巩固.html">
+            
+                <a href="../第四章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="组合数据类型.html">
+            
+                <a href="组合数据类型.html">
+            
+                    
+                    第五章:组合数据类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.6.1" data-path="集合类型及操作.html">
+            
+                <a href="集合类型及操作.html">
+            
+                    
+                    5.1集合类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="序列类型及操作.html">
+            
+                <a href="序列类型及操作.html">
+            
+                    
+                    5.2序列类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="字典类型及操作.html">
+            
+                <a href="字典类型及操作.html">
+            
+                    
+                    5.3字典类型及操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="习题巩固.html">
+            
+                <a href="习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../第六章/函数的代码和复用.html">
+            
+                <a href="../第六章/函数的代码和复用.html">
+            
+                    
+                    第六章:函数的代码和复用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../第六章/函数的定义与使用.html">
+            
+                <a href="../第六章/函数的定义与使用.html">
+            
+                    
+                    6.1函数的定义与使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../第六章/代码复用与函数递归.html">
+            
+                <a href="../第六章/代码复用与函数递归.html">
+            
+                    
+                    6.2代码复用与函数递归
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../第六章/习题巩固.html">
+            
+                <a href="../第六章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../第七章/文件和数据格式化.html">
+            
+                <a href="../第七章/文件和数据格式化.html">
+            
+                    
+                    第七章:文件和数据格式化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../第七章/文件的使用.html">
+            
+                <a href="../第七章/文件的使用.html">
+            
+                    
+                    7.1文件的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../第七章/数据格式化和使用.html">
+            
+                <a href="../第七章/数据格式化和使用.html">
+            
+                    
+                    7.2数据格式化和使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../第七章/习题巩固.html">
+            
+                <a href="../第七章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../第八章/第三方库.html">
+            
+                <a href="../第八章/第三方库.html">
+            
+                    
+                    第八章:第三方库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../第八章/习题巩固.html">
+            
+                <a href="../第八章/习题巩固.html">
+            
+                    
+                    习题巩固
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >5.1集合类型及操作</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="51&#x96C6;&#x5408;&#x7C7B;&#x578B;&#x53CA;&#x64CD;&#x4F5C;">5.1&#x96C6;&#x5408;&#x7C7B;&#x578B;&#x53CA;&#x64CD;&#x4F5C;</h1>
+<h1 id="&#x76EE;&#x6807;">&#x76EE;&#x6807;</h1>
+<pre><code>1.&#x719F;&#x6089;&#x96C6;&#x5408;&#x7C7B;&#x578B;
+2.&#x638C;&#x63E1;&#x96C6;&#x5408;&#x64CD;&#x4F5C;&#x65B9;&#x6CD5;
+3.&#x719F;&#x6089;&#x96C6;&#x5408;&#x7C7B;&#x578B;&#x5E94;&#x7528;&#x573A;&#x666F;
+</code></pre><h2 id="&#x96C6;&#x5408;&#x7C7B;&#x578B;&#x7684;&#x5B9A;&#x4E49;&#xFF1A;&#x96C6;&#x5408;&#x662F;&#x591A;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x65E0;&#x5E8F;&#x7EC4;&#x5408;">&#x96C6;&#x5408;&#x7C7B;&#x578B;&#x7684;&#x5B9A;&#x4E49;&#xFF1A;&#x96C6;&#x5408;&#x662F;&#x591A;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x65E0;&#x5E8F;&#x7EC4;&#x5408;</h2>
+<ul>
+<li>&#x200B;    &#x96C6;&#x5408;&#x7C7B;&#x578B;&#x4E0E;&#x6570;&#x5B66;&#x4E2D;&#x7684;&#x96C6;&#x5408;&#x6982;&#x5FF5;&#x4E00;&#x81F4;</li>
+<li>&#x200B;    &#x96C6;&#x5408;&#x5143;&#x7D20;&#x4E4B;&#x95F4;&#x65E0;&#x5E8F;&#xFF0C;&#x6BCF;&#x4E2A;&#x5143;&#x7D20;&#x552F;&#x4E00;&#xFF0C;&#x4E0D;&#x5B58;&#x5728;&#x76F8;&#x540C;&#x7684;&#x5143;&#x7D20;</li>
+<li>&#x200B;    &#x96C6;&#x5408;&#x7528;{}&#x8868;&#x793A;&#xFF0C;&#x5143;&#x7D20;&#x95F4;&#x7528;&#x9017;&#x53F7;&#x5206;&#x9694;</li>
+<li>&#x200B;    &#x5EFA;&#x7ACB;&#x96C6;&#x5408;&#x7C7B;&#x578B;&#x7528;{}&#x6216;set()</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-comment">#{}&#x521B;&#x5EFA;&#x96C6;&#x5408;</span>
+A={<span class="hljs-string">&quot;python&quot;</span>,<span class="hljs-number">1</span>,(<span class="hljs-string">&quot;python&quot;</span>,<span class="hljs-number">1</span>)}
+<span class="hljs-comment">#&#x4F7F;&#x7528;set&#x521B;&#x5EFA;&#x96C6;&#x5408;</span>
+B=set(<span class="hljs-string">&quot;python&quot;</span>)
+</code></pre>
+<h2 id="&#x96C6;&#x5408;&#x64CD;&#x4F5C;&#x7B26;">&#x96C6;&#x5408;&#x64CD;&#x4F5C;&#x7B26;</h2>
+<p>&#x200B;    <img src="img/&#x96C6;&#x5408;&#x64CD;&#x4F5C;&#x7B26;.jpg" alt=""></p>
+<pre><code class="lang-python"><span class="hljs-string">&quot;&quot;&quot;
+&#x6709;&#x4E24;&#x4E2A;&#x5217;&#x8868;
+lst1
+lst2
+1.&#x54EA;&#x4E9B;&#x6574;&#x6570;&#x65E2;&#x5728;lst1&#x4E2D;&#xFF0C;&#x4E5F;&#x5728;lst2&#x4E2D;
+2.&#x54EA;&#x4E9B;&#x6574;&#x6570;&#x5728;lst1&#x4E2D;&#xFF0C;&#x4E0D;&#x5728;lst2&#x4E2D;
+3.&#x4E24;&#x4E2A;&#x5217;&#x8868;&#x4E00;&#x5171;&#x6709;&#x54EA;&#x4E9B;&#x6574;&#x6570;
+&quot;&quot;&quot;</span>
+lst1=[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">3</span>,<span class="hljs-number">2</span>]
+lst2=[<span class="hljs-number">2</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>]
+
+<span class="hljs-comment">#&#x7B2C;&#x4E00;&#x5373;&#x6C42;&#x4EA4;&#x96C6;</span>
+print(set(lst1) &amp; set(lst2))
+<span class="hljs-comment">#&#x7B2C;&#x4E8C; &#x5DEE;&#x96C6;</span>
+print(set(lst1) - set(lst2))
+<span class="hljs-comment">#&#x7B2C;&#x4E09; &#x5E76;&#x96C6;</span>
+print(set(lst1) | set(lst2))
+</code></pre>
+<h2 id="&#x96C6;&#x5408;&#x5904;&#x7406;&#x65B9;&#x6CD5;">&#x96C6;&#x5408;&#x5904;&#x7406;&#x65B9;&#x6CD5;</h2>
+<p><img src="img/&#x96C6;&#x5408;&#x5904;&#x7406;&#x65B9;&#x6CD5;.jpg" alt=""></p>
+<pre><code class="lang-python">lst=set()
+lst.add(<span class="hljs-string">&apos;python&apos;</span>)
+lst.add(<span class="hljs-string">&apos;java&apos;</span>)
+lst.add(<span class="hljs-string">&apos;c&apos;</span>)
+lst.remove(<span class="hljs-string">&apos;c&apos;</span>)
+print(len(lst))
+</code></pre>
+<pre><code class="lang-python"><span class="hljs-comment"># in  &#x548C; not in</span>
+my_set={<span class="hljs-string">&quot;python&quot;</span>,<span class="hljs-string">&apos;java&apos;</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">4</span>}
+print(<span class="hljs-string">&apos;python&apos;</span> <span class="hljs-keyword">in</span> my_set)<span class="hljs-comment">#True</span>
+print(<span class="hljs-string">&apos;c&apos;</span> <span class="hljs-keyword">in</span> my_set)<span class="hljs-comment">#False</span>
+</code></pre>
+<h2 id="&#x96C6;&#x5408;&#x5E94;&#x7528;&#x573A;&#x666F;">&#x96C6;&#x5408;&#x5E94;&#x7528;&#x573A;&#x666F;</h2>
+<p>1.&#x53BB;&#x91CD;</p>
+<pre><code class="lang-python"><span class="hljs-string">&quot;&quot;&quot;
+&#x5B57;&#x7B26;&#x4E32;&#x53BB;&#x91CD;&#x6392;&#x5E8F;
+&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x53BB;&#x9664;&#x91CD;&#x590D;&#x7684;&#x5B57;&#x7B26;&#x540E;&#xFF0C;&#x4ECE;&#x5C0F;&#x5230;&#x5927;&#x6392;&#x5E8F;&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x65B0;&#x5B57;&#x7B26;&#x4E32;
+&quot;&quot;&quot;</span>
+
+s=list(set(input()))<span class="hljs-comment">#&#x5148;set&#x53BB;&#x91CD; &#x540E;list&#x53D8;&#x4E3A;&#x5217;&#x8868;</span>
+s.sort()<span class="hljs-comment">#&#x6392;&#x5E8F;</span>
+print(<span class="hljs-string">&quot; &quot;</span>.join(s))
+</code></pre>
+<p>2.&#x52A0;&#x5BC6;&#x5B57;&#x7B26;&#x4E32;</p>
+<pre><code class="lang-python"><span class="hljs-string">&quot;&quot;&quot;
+
+&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x505A;&#x5BC6;&#x94A5;&#xFF08;&#x53BB;&#x91CD;&#x5927;&#x5199;&#x548C;26&#x4E2A;&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x5DEE;&#xFF09;
+&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x52A0;&#x5BC6;&#x7684;&#x5B57;&#x7B26;&#x4E32;
+&quot;&quot;&quot;</span>
+<span class="hljs-keyword">import</span> string
+
+upperLetter=string.ascii_uppercase
+s=input().upper()<span class="hljs-comment">#&#x8F93;&#x5165;&#x505A;&#x5BC6;&#x94A5;&#x7684;&#x5B57;&#x7B26;&#x4E32;</span>
+code=list(set(upperLetter)-set(s))
+code.sort()
+
+ls=list(set(s))
+ls.sort(key=s.index)<span class="hljs-comment">#&#x6309;&#x8F93;&#x5165;&#x5B57;&#x7B26;&#x4E32;&#x987A;&#x5E8F;&#x6392;&#x5E8F;</span>
+keys=<span class="hljs-string">&apos;&apos;</span>.join(ls+code)
+decode=input().upper()<span class="hljs-comment">#&#x8981;&#x8F93;&#x5165;&#x52A0;&#x5BC6;&#x7684;&#x5B57;&#x7B26;&#x4E32;</span>
+table=<span class="hljs-string">&apos;&apos;</span>.maketrans(upperLetter,keys)<span class="hljs-comment">#maketrans() &#x5B57;&#x7B26;&#x6620;&#x5C04;&#x8F6C;&#x6362;&#x8868;</span>
+print(decode.translate(table))
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="组合数据类型.html" class="navigation navigation-prev " aria-label="Previous page: 第五章:组合数据类型">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="序列类型及操作.html" class="navigation navigation-next " aria-label="Next page: 5.2序列类型及操作">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"5.1集合类型及操作","level":"1.6.1","depth":2,"next":{"title":"5.2序列类型及操作","level":"1.6.2","depth":2,"path":"第五章/序列类型及操作.md","ref":"第五章/序列类型及操作.md","articles":[]},"previous":{"title":"第五章:组合数据类型","level":"1.6","depth":1,"path":"第五章/组合数据类型.md","ref":"第五章/组合数据类型.md","articles":[{"title":"5.1集合类型及操作","level":"1.6.1","depth":2,"path":"第五章/集合类型及操作.md","ref":"第五章/集合类型及操作.md","articles":[]},{"title":"5.2序列类型及操作","level":"1.6.2","depth":2,"path":"第五章/序列类型及操作.md","ref":"第五章/序列类型及操作.md","articles":[]},{"title":"5.3字典类型及操作","level":"1.6.3","depth":2,"path":"第五章/字典类型及操作.md","ref":"第五章/字典类型及操作.md","articles":[]},{"title":"习题巩固","level":"1.6.4","depth":2,"path":"第五章/习题巩固.md","ref":"第五章/习题巩固.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"第五章/集合类型及操作.md","mtime":"2021-09-06T07:13:31.547Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-09-07T06:04:11.634Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
